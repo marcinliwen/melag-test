@@ -109,9 +109,8 @@ section.hero .container {
 .subscription-form{
     border-radius: 32px;
     background: #006FB9;
-    width: 507px;
     max-width: 100%;
-    height: 536px;
+    padding: 35px 28px;
 }
 .subscription-desc {
     margin-bottom: 67px;
@@ -175,6 +174,44 @@ section.hero .container {
 .benefits-list li::marker {
     font-size: 12px;
 }
+.subscription-form h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+.subscription-form span{
+    font-size: 36px;
+    font-weight: 300;
+    opacity: 0.9;
+}
+.subscription-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+}
+.subscription-form input{
+    padding: 12px 23px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #D0D5DB;
+}
+.subscription-form label{
+    color: #fff;
+    width: 100%;
+}
+input.button{
+    background-color: #33CC34;
+    padding: 18px 23px 14px;
+    color: #fff;
+    margin-top: 16px;
+    border-color: #33CC34;
+}
+input::placeholder {
+    color: #A1A2A4;
+}
 @media (min-width: 992px){
     .hero-banner{
         object-position: center;
@@ -211,5 +248,17 @@ section.hero .container {
     }
     .benefits .flex{
         gap: 0;
+    }
+    .subscription-form input{
+        margin-left: 30px;
+    }
+    .subscription-form input{
+        width: 273px
+    }
+    .subscription-form form{
+        padding-right: 30px;
+    }
+    .subscription-form label {
+        width: auto;
     }
 }
