@@ -208,6 +208,8 @@ input.button{
     color: #fff;
     margin-top: 16px;
     border-color: #33CC34;
+    font-size: 18px;
+    line-height: 18px;
 }
 input::placeholder {
     color: #A1A2A4;
