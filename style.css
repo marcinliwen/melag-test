@@ -106,12 +106,11 @@ section.hero .container {
     color: #2e2e2e99;
     
 }
-.subscription-form{
+/* .subscription-form{
     border-radius: 32px;
     background: #006FB9;
     max-width: 100%;
-    padding: 35px 28px;
-}
+} */
 .subscription-desc {
     margin-bottom: 67px;
 }
